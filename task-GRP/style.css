@@ -1,0 +1,62 @@
+footer {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333;              /* Dark grey text */
+    text-align: center;       /* Centered text */
+    padding: 10px 0;          /* Padding around the text */
+    position: fixed;          /* Makes the footer stay at the bottom */
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f4f4;
+}
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px; /* Set a fixed width for the container */
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+input[type="text"], button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's width */
+}
+button {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+.options {
+    text-align: left;
+    margin-top: 20px;
+}
+.options label {
+    display: block; /* Each label on a new line */
+}
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
