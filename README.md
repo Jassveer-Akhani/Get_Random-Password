@@ -1,1 +1,1 @@
-https://randompassw.netlify.app/
+https://ranpasss.netlify.app/
